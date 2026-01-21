@@ -95,3 +95,32 @@ O projeto já possui um `docker-compose.yml` para subir o banco MySQL:
 
 ```bash
 docker compose up -d
+```
+### Opção 2 – Banco local
+Ter o MySQL instalado
+
+Criar um banco chamado expensegate
+
+Ajustar o application.properties conforme seu ambiente
+
+## 🚀 Como rodar
+
+### 1️⃣ Subir o banco de dados com Docker
+
+O projeto utiliza MySQL via Docker. Antes de iniciar a aplicação, suba o container:
+
+```bash
+docker compose up -d
+```
+### 2️⃣ Rodar a aplicação Spring Boot
+Com o Maven instalado:
+
+```bash
+./mvnw spring-boot:run
+```
+
+Ou rode diretamente pela sua IDE (ex: IntelliJ IDEA).
+
+---
+
+Desenvolvido por Henrique Lindman ✨
